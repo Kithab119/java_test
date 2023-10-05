@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 	@RequestMapping("/")
 	public String index() {
-		return "Hello World! Spring boot. by SHIRATA";
+		return "Hello World! Spring boot. by SHIRATA .onjoko";
 	}
 }
 //テスト
