@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>entryPage</title>
+</head>
+<body>
+	<p>計算する数字を入力してください。</p>
+	<p>数字を入力して、Clickボタンを押すと、２倍された数字が表示されます。</p>
+    <form method="post" action="resultPage">
+        <input type="text" name="num" th:value="${value}" />
+        <input type="submit" value="Click" />
+    </form>
+</body>
+</html>
