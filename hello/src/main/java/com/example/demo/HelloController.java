@@ -10,4 +10,4 @@ public class HelloController {
 		return "Hello World! Spring boot. by SHIRATA .onjoko";
 	}
 }
-//テスト
+//テスト1
